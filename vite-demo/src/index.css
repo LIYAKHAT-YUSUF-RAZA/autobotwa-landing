@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to bottom right, rgb(15, 23, 42), rgb(30, 41, 59), rgb(15, 23, 42));
+  color: rgb(226, 232, 240);
+  font-family: var(--font-family);
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  font-family: var(--font-family);
+  color: white;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  font-weight: 600;
+}
+
+p {
+  color: rgb(203, 213, 225);
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: rgb(37, 99, 235);
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(29, 78, 216);
+}
+
+.btn-secondary {
+  background-color: rgb(51, 65, 85);
+  color: rgb(226, 232, 240);
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(71, 85, 105);
+}
+
+.card {
+  background-color: rgb(30, 41, 59);
+  border: 1px solid rgb(51, 65, 85);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: rgb(71, 85, 105);
+}
+
+.section-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+}
