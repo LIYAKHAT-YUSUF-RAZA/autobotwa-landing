@@ -3,6 +3,9 @@
     "dev": "cd vite-demo && npm run dev",
     "build": "cd vite-demo && npm run build"
   },
+  "overrides": {
+    "lightningcss": "npm:@parcel/css@^1.30.0"
+  },
   "dependencies": {
     "lucide-react": "^0.555.0"
   }
