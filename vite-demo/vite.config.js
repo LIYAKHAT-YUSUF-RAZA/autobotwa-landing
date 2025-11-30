@@ -8,6 +8,9 @@ export default defineConfig({
   plugins: [react(),
 tailwindcss(),
   ],
+  css: {
+    transformer: 'postcss'
+  },
   build: {
     rollupOptions: {
       output: {
