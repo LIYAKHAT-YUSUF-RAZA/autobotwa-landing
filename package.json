@@ -4,8 +4,6 @@
     "build": "cd vite-demo && npm run build"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.17",
-    "lucide-react": "^0.555.0",
-    "tailwindcss": "^4.1.17"
+    "lucide-react": "^0.555.0"
   }
 }
